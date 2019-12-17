@@ -1,0 +1,54 @@
+.grid {
+	display: grid;
+	grid-gap: 5px;
+	width: 100%;
+	height: 867px;
+	grid-template-rows: 70px 66px 1fr 1fr 1fr;
+	grid-template-columns: 10% 10% 17% 13% 50%;
+  }
+  
+  .grey {
+	  background-color: silver;
+  }
+  
+  .LN {
+	  background-color: white;
+	  border: 3px red solid;
+	  grid-area: 1 / 1 / span 1 / span 1;
+	  font-size: 35px;
+  }
+  
+  .FN {
+	  background-color: white;
+	  border: 3px red solid;
+	  grid-area: 1 / 2 / span 1 / span 1;
+	  font-size: 35px;
+  }
+  
+  .Teacher {
+	  background-color: white;
+	  border: 3px red solid;
+	  grid-area: 2 / 1 / span 1 / span 1;
+	  font-size: 35px;
+  }
+  
+  .Period {
+	  background-color: white;
+	  border: 3px red solid;
+	  grid-area: 2 / 2 / span 1 / span 1;
+	  font-size: 35px;
+  }
+  
+  .CPH {
+	  background-color: white;
+	  grid-area: 4 / 1 / span 2 / span 3;
+	  font-size: 70px;
+	  text-align: center;
+  }
+  
+  .site {
+	  background-color: white;
+	  border: 10px white solid;
+	  grid-area: 1 / 5 / span 5 / span 1;
+	  font-size: 177px;
+  }
